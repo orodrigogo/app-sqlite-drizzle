@@ -9,7 +9,11 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "babel-plugin-inline-import": "^3.0.0",
+    "drizzle-orm": "^0.31.0",
     "expo": "~51.0.9",
+    "expo-drizzle-studio-plugin": "^0.0.2",
+    "expo-sqlite": "~14.0.3",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
     "react-native": "0.74.1"
@@ -17,6 +21,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.2.45",
+    "drizzle-kit": "^0.22.1",
     "typescript": "^5.1.3"
   },
   "private": true
